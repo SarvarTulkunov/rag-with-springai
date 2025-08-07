@@ -66,3 +66,19 @@ spring:
     openai:
       api-key: ${OPENAI_API_KEY}
 ```
+
+You can also set it via the terminal:
+
+```bash
+export OPENAI_API_KEY=your_openai_key
+```
+
+### 3. Start PostgreSQL + PGVector via Docker
+
+```bash
+docker-compose up -d
+```
+
+👨‍💻 Author
+Sarvar Tulkunov
+📫 GitHub
