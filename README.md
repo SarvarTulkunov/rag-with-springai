@@ -85,4 +85,3 @@ docker-compose up -d
 
 👨‍💻 Author
 Sarvar Tulkunov
-📫 GitHub
