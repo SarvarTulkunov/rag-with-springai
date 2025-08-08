@@ -1,5 +1,4 @@
-# RAG (Retrieval-Augmented Generation) with 
-# Spring AI and GPT-4o 🔍
+# RAG (Retrieval-Augmented Generation) with Spring AI and GPT-4o 🔍
 
 📘 **Purpose**: This RAG system is built to answer questions about the book **_“Atomic Habits” by James Clear_**, using embedded content from the book's PDF.
 
