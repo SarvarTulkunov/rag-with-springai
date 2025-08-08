@@ -18,6 +18,7 @@ This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)*
 
 ## 📁 Project Structure
 
+```code
 src/
 ├── main/
 │ ├── java/
@@ -30,7 +31,7 @@ src/
 │ └── docs/ # PDFs to be ingested
 ├── docker-compose.yml # PGVector container
 └── README.md
-
+```
 
 
 ---
