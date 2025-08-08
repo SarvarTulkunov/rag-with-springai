@@ -1,5 +1,8 @@
 # RAG (Retrieval-Augmented Generation) with Spring AI and GPT-4o 🔍
 
+📘 **Purpose**: This RAG system is built to answer questions about the book **_“Atomic Habits” by James Clear_**, using embedded content from the book's PDF.
+
+
 This project demonstrates how to build a **Retrieval-Augmented Generation (RAG)** system using **Spring AI**, **OpenAI's GPT-4o model**, and **PGVector** as a vector store. It supports document ingestion from PDF files and provides two RAG injection modes:
 - 🔹 **JSON-based vector storage**
 - 🔹 **PostgreSQL-based vector storage** using PGVector
@@ -25,7 +28,7 @@ src/
 │ │ └── com.example.ragwithspringai/
 │ │ ├── injection/ # Configuration classes (OpenAI, PGVector, etc.)
 │ │ ├── controller/ # Two REST controllers for JSON and PGVector
-│ │ ├── injection/ # Services for embedding, storage, and loading
+│ │ ├── loader/ # Services for embedding, storage, and loading
 │ └── resources/
 │ ├── application.yml
 │ └── docs/ # PDFs to be ingested
@@ -54,7 +57,7 @@ src/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/spring-ai-rag.git
+git clone https://github.com/SarvarTulkunov/rag-with-springai.git
 cd rag-with-springai
 ```
 
